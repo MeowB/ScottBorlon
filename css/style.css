@@ -1,0 +1,154 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  font-family: Montserrat, "Times New Roman", Times, serif;
+  background-color: #ebebeb;
+  font: 1em/1.5 "Helvetica neue", Helvetica, arial, sans-serif;
+}
+
+.container
+{
+  padding: 1% 5%;
+  width: 60%;
+  margin: 50px auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+body > div.container{
+  margin-bottom: 60px;
+}
+
+::selection
+{
+  background-color: #ccc;
+}
+
+.profile-image {
+  margin: 10px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #7d7d7d;
+  float: in;
+}
+
+
+h1{
+  color: #d55;
+}
+
+h2
+{
+  text-align: center;
+  color: #7d7d7d;
+  font-weight:normal;
+}
+
+.button:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.button:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+              inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.container-social{
+  padding: 7% 5%;
+  margin: 50px auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+
+.icons-social a {
+  color: #ccc;
+  font-size: 2.8em;
+  margin: auto;
+  padding: 1em 8%;
+}
+
+.icons-social p {
+  color: #ccc;
+  font-size: 0.27em;
+  font-family: Montserrat, "Times New Roman", Times, serif;
+}
+
+
+.card-article{
+  height: 320px;
+  width: 100%;
+  margin: 50px auto 40px;
+  /* overflow: auto; */
+}
+
+.articleImg
+{
+  float:left;
+  height: 100%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.article{
+  margin: 20px;
+  /* padding-left: 1em; */
+  text-align: left;
+}
+
+p{
+  height: auto;
+  line-height: 1.6;
+  word-spacing: 8px;
+  color: #7d7d7d;
+  text-align: left;
+}
+
+
+.button {
+  border: 0;
+  line-height: 40px;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  background-color: #d55;
+  display: none;
+}
+
+::selection, ::-moz-selection {
+  color: #fff;
+  background: #ccc;
+  }
+
+@media(max-width: 768px){
+
+  .articleImg, .card-article{
+  overflow: visible;
+
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .container, .container-social, .article{
+    padding: 3%;
+    margin: 0;
+    width: 100%;
+  }
+  .container-social{
+    margin: 50px 0;
+    padding: 50px 0;
+  }
+
+  
+  
+}
+
