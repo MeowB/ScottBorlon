@@ -1,5 +1,4 @@
 *{
-
   margin: 0;
   padding: 0;
 }
@@ -13,6 +12,7 @@ body
 
 .container
 {
+
   padding: 1% 5%;
   width: 60%;
   margin: 50px auto;
@@ -82,7 +82,7 @@ h2
 
 .card-article{
   height: 320px;
-  width: 100%;
+  min-width: 478px;
   margin: 50px auto 40px;
   /* overflow: auto; */
 }
@@ -92,12 +92,9 @@ h2
   float:left;
   height: 100%;
   margin-right: 20px;
-  margin-top: 20px;
 }
 
 .article{
-  margin: 20px;
-  /* padding-left: 1em; */
   text-align: left;
 }
 
@@ -108,7 +105,6 @@ p{
   color: #7d7d7d;
   text-align: left;
 }
-
 
 .button {
   border: 0;
@@ -131,21 +127,31 @@ p{
 @media(max-width: 768px){
 
   .articleImg, .card-article{
-  overflow: visible;
-
+    overflow: visible;
+    margin: 0;
     float: none;
     width: 100%;
     height: auto;
+    min-width: none;
   }
 
   .container, .container-social, .article{
-    padding: 3%;
+    padding: 0 0 20px 0 ;
     margin: 0;
     width: 100%;
   }
+  
+  .card-article{
+    min-width: 0;
+  }
+
   .container-social{
     margin: 50px 0;
     padding: 50px 0;
+  }
+
+  p, h2{
+    padding: 20px;
   }
 
   
