@@ -14,7 +14,7 @@ body
 {
 
   padding: 1% 5%;
-  width: 60%;
+  width: 650px;
   margin: 50px auto;
   background-color: #fff;
   text-align: center;
@@ -27,6 +27,37 @@ body > div.container{
 ::selection
 {
   background-color: #ccc;
+}
+
+
+a:link
+{
+  color:#d55;
+  text-decoration: none;
+}
+
+a:visited
+{
+    color: #d55;
+}
+
+a:hover
+{
+  color: #a65;
+}
+
+a:active
+{
+  color: lightcoral;
+}
+
+#language
+{
+ font-size: .8em;
+}
+
+.fab{
+  color: #666;
 }
 
 .profile-image {
@@ -58,6 +89,9 @@ h2
               inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+#description{
+  padding: 20px;
+}
 .container-social{
   padding: 7% 5%;
   margin: 50px auto;
