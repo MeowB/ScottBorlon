@@ -1,3 +1,3 @@
-# ScottBorlon
+# Link to my website.
 <a href="http:https://meowb.github.io/ScottBorlon/" target="_blank">(https://meowb.github.io/ScottBorlon/)</a>
 
