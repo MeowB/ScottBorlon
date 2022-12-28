@@ -1,3 +1,3 @@
 # ScottBorlon
-<a href="http:https://meowb.github.io/ScottBorlon/" target="_blank">Hello, world!</a>
+<a href="http:https://meowb.github.io/ScottBorlon/" target="_blank">(https://meowb.github.io/ScottBorlon/)</a>
 
